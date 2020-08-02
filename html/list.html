@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/gg.css" />
+    <link rel="stylesheet" type="text/css" href="../css/list.css" />
+    <link rel="stylesheet" type="text/css" href="../font-awesome-4.7.0/css/font-awesome.min.css" />
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../js/common.js" type="text/javascript"></script>
+    <script src="../js/xiding.js" type="text/javascript"></script>
+    <script src="../js/list.js" type="text/javascript"></script> -->
+    <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/require.js" data-main="../js/list.js" async></script>
+    
+    <link rel="stylesheet" type="text/css" href="../css/zhongling_style.css" />
+<style>
+	/*footer部分居中*/
+	Header {
+            width: 100%;
+        }
+    .Main{
+            width: 1458px;
+            height: 600px;
+            margin: 0 auto;
+            position: relative;
+        }
+    Footer{
+            width: 100%;
+            position: relative;
+        }
+    Footer ul{
+            width: 1458px;
+            margin: 0 auto;
+        }
+    Footer .footer2{
+            margin: 0 auto !important;
+            padding: 37px 0 0 100 !important;
+        }
+</style>
+
+
+</head>
+    <body>
+    <!--引入header部分-->
+    <header id="Header"></header>
+    
+    <!--main部分-->
+    <main id="Main">
+        <div class="container">
+        <!--提示词条部分begin-->
+            <div class="box1">
+                <a href="#">全部结果</a> <i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>
+                <a href="#">护肤</a> <i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>
+                <a href="#">洁面</a> <i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>
+                <input type="text" placeholder="在当前条件下搜索" class="x_shou"/><i class="fa fa-search fd" aria-hidden="true"></i><p class="sp">商品共<span style="color:#E31436">1108</span>个</p>
+            </div>
+        <!--提示词条部分end-->
+        <!--列举分类部分begin-->
+            <ul class="box2">
+                <li class="yicheng yi1">
+                    <span>品牌</span>
+                    <ul class="ercheng">
+                        <li>
+                            	资生堂<br />
+                            	欧莱雅
+                        </li>
+                        <li>
+                            	曼秀雷敦<br />
+                            	碧欧泉
+                        </li>
+                        <li>
+                          	  妮维雅<br />
+                            	玉兰油
+                        </li>
+                        <li>
+                          	  科颜氏<br />
+                            	艾丽美
+                        </li>
+                        <li>
+                           	 多芬<br />
+                            ROSETTE
+                        </li>
+                        <li>
+                          	  雅诗兰黛<br />
+                            	悦诗风铃
+                        </li>
+                    </ul>
+                    <span class="duoxuan">+多选</span>
+                    <span>展开 <i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                </li>
+                <li class="yicheng yi2">
+                    <span>国家/地区</span>
+                    <ul class="ercheng">
+                        <li>
+                            	日本
+                        </li>
+                        <li>
+                            	韩国
+                        </li>
+                        <li>
+                           	 美国
+                        </li>
+                        <li>
+                            	法国
+                        </li>
+                        <li>
+                          	  德国
+                        </li>
+                        <li>
+                            	澳大利亚
+                        </li>
+                    </ul>
+                    <span class="duoxuan">+多选</span>
+                    <span>展开<i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                </li>
+                <li class="yicheng yi3">
+                    <span><i class="fa fa-caret-right" aria-hidden="true"></i>分类</span>
+                    <ul class="ercheng">
+                        <li>
+                           	 洁面
+                        </li>
+                        <li>
+                            	男士洁面
+                        </li>
+                        <li>
+                            	面部磨砂/去角质
+                        </li>
+                        <li>
+                           	面部清洁套装
+                        </li>
+                        <li>
+                            T区护理
+                        </li>
+                    </ul>
+                </li>
+                <li class="yicheng yi4">
+                    <span>功能</span>
+                    <ul class="ercheng">
+                        <li>
+                            	深层清洁
+                        </li>
+                        <li>
+                           	 补水保湿
+                        </li>
+                        <li>
+                           	 控油
+                        </li>
+                        <li>
+                            	提亮肤色
+                        </li>
+                        <li>
+                            	去角质
+                        </li>
+                        <li>
+                           	 收敛毛孔
+                        </li>
+                        <li>
+                            	舒缓护肤
+                        </li>
+                        <li>
+                           	 滋润
+                        </li>
+                        <li>
+                           	 卸妆
+                        </li>
+                        <li>
+                           	 美白
+                        </li>
+                    </ul>
+                    <span class="duoxuan">+多选</span>
+                    <span>展开<i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                </li>
+                <li class="yicheng yi5">
+                    <span>适合肤质</span>
+                    <ul class="ercheng">
+                        <li>
+                            	油性肤质
+                        </li>
+                        <li>
+                            	干性肤质
+                        </li>
+                        <li>
+                           	 中性肤质
+                        </li>
+                        <li>
+                            	混合肤质
+                        </li>
+                        <li>
+                            	任何肤质
+                        </li>
+                        <li>
+                            	敏感型肤质
+                        </li>
+                    </ul>
+                    <span class="duoxuan">+多选</span>
+                </li>
+                <li class="yicheng yi6">
+                    <span>其他属性</span>
+                    <span class="ber duoxuan"> 质地 <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span>
+                    <span class="ber duoxuan"> 适用部位 <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span>
+                    <span class="ber duoxuan"> 适用群体 <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span>
+                    <span class="ber duoxuan"> 起泡程度 <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span>
+                    <span class="ber duoxuan"> 香型 <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span>
+                    <span class="ber duoxuan"> 产品类型 <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span>
+                    <span class="ber duoxuan"> 规格 <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span>
+                </li>
+            </ul>
+            <!--列举分类部分end-->
+            <!--销量价格部分begin-->
+            <div class="box3">
+                <div class="container">
+                    <ul class="zh fl">
+                        <li>综合</li>
+                        <li>销量</li>
+                        <li>新品</li>
+                        <li>价格<img src="../images/shangjian.png" alt="" class="jian"/></li>
+                    </ul>
+                    <input type="text" placeholder="￥" class="jiawei"/> - <input type="text" placeholder="￥" class="jiawei"/>
+                    <span class="shd">收货地</span>
+                    <span class="dizhi">广东/广州市/荔湾区 <i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                    <span class="fuxuan"></span>曼尼自营
+                    <span class="fuxuan"></span>仅看有货
+                    <span class="fuxuan"></span>促销
+                    <span class="fuxuan"></span>工厂店
+                </div>
+            </div>
+            <!--销量价格部分end-->
+            <!--各类商品展示begin-->
+            <ul class="list">
+                <li id="#muyulu">
+                    <img src="../images/li1.jpg" alt=""  class="muyulu"/>
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥128</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li2.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li3.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li4.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li5.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li6.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li7.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li8.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li9.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li10.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li11.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li12.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li13.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li14.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li15.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li16.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li17.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li18.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li19.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/li20.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+            </ul>
+            <!--各类商品展示end-->
+            
+            <!--页码begin
+            <div class="yema">
+                <span class="syiye sx">上一页</span>
+                <div class="yemali">
+                    <span class="active ac">1</span>
+                    <span class="ac">2</span>
+                    <span class="ac">3</span>
+                    <span class="ac">4</span>
+                    <span class="ac">5</span>
+                </div>
+                <span class="xyiye sx">下一页</span>
+            </div>-->
+            <!--页码end-->
+            
+            <!--分页 begin-->
+            <div class="paging">
+            	<div class="pag-left f-l">
+                	<a href="#" class="about left-r f-l"><</a>
+                    <ul class="left-m f-l">
+                    	<li><a href="#">1</a></li>
+                        <li class="current"><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">100</a></li>
+                        <div style="clear:both;"></div>
+                    </ul>
+                	<a href="#" class="about left-l f-l">></a>
+                    <div style="clear:both;"></div>
+                </div>
+            	<div class="pag-right f-l">
+                	<div class="jump-page f-l">
+                        到第<input type="text" />页
+                    </div>
+                    <button class="f-l">确定</button>
+                    <div style="clear:both;"></div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>       
+        <!--分页 end--> 
+            <!--猜你喜欢begin-->
+            <h4 class="box0">
+                <div class="container">
+                    <span class="da">猜你喜欢</span>
+                    <span class="dan">根据你的浏览记录推荐的商品</span>
+                    <div class="gengduo fr" style="color:#999;">更多好货 ></div>
+                </div>
+                <!--imgs begin
+                <ul class="list">
+                <li>
+                    <img src="../images/li1.jpg" alt="" />
+                    <div class="hezi">
+                    <p class="p1">
+                        <span class="xianjia">￥148</span>
+                        <del class="yuanjia">￥178</del>
+                    </p>
+                    <p class="p2">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</p>
+                    <p class="p3"><span class="ziying">自营</span><span class="mj">2件减30</span><span class="mj">赠</span></p>
+                    <p class="p4"><i class="fa fa-commenting fa-lg" aria-hidden="true" style="color:#999;margin-right:4px;"></i> 33152 <span class="fr" style="color:#999;">美国</span></p>
+                    <p class="p5" style="color:#999;">网易曼尼自营</p>
+                    </div>
+                </li>
+               imgs end-->
+            </h4>
+            <div class="cai">
+                <div class="container">
+                	<!--
+                    <ul>
+                        <li><img src="../images/d1.jpg" alt="" /><p class="p1">MAC 魅可 时尚唇膏 #Chili 3克</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><span class="pl fr">6696人评论</span></p></li>
+                        <li><img src="../images/d2.png" alt="" /><p class="p1">MAC 魅可 时尚唇膏 #Chili 3克</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><span class="pl fr">6696人评论</span></p></li>
+                        <li><img src="../images/d3.jpg" alt="" /><p class="p1">MAC 魅可 时尚唇膏 #Chili 3克</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><span class="pl fr">6696人评论</span></p></li>
+                        <li><img src="../images/d4.jpg" alt="" /><p class="p1">MAC 魅可 时尚唇膏 #Chili 3克</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><span class="pl fr">6696人评论 </span></p></li>
+                    </ul>-->
+                    <p>
+                    	<img src="../images/d1.jpg" width="262px" height="340px">
+                    	<img src="../images/d2.png" width="262px" height="340px" style="margin-left: 8px;">
+                    	<img src="../images/d3.jpg" width="262px" height="340px" style="margin-left: 8px;">
+                    	<img src="../images/d4.jpg" width="262px" height="340px" style="margin-left: 8px;">
+                    </p>
+                </div>
+            </div> 
+            <!--猜你喜欢end-->
+            
+            <!--大家都在买begin-->
+            <h4 class="box0">
+                <div class="container">
+                    <span class="da">大家都在买</span>
+                    <span class="dan">全网最热门的商品推荐</span>
+                    <div class="gengduo fr" style="color:#999;">更多好货 ></div>
+                </div>
+            </h4>
+            <div class="cai">
+                <div class="container">
+                    <!--<ul>
+                        <li><img src="../images/li1.jpg" alt="" /><p class="p1">MAC 魅可 时尚唇膏 #Chili 3克</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><span class="pl fr">6696人评论</span></p></li>
+                        <li><img src="../images/li2.jpg" alt="" /><p class="p1">MAC 魅可 时尚唇膏 #Chili 3克</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><span class="pl fr">6696人评论</span></p></li>
+                        <li><img src="../images/li3.jpg" alt="" /><p class="p1">MAC 魅可 时尚唇膏 #Chili 3克</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><span class="pl fr">6696人评论</span></p></li>
+                        <li><img src="../images/li4.jpg" alt="" /><p class="p1">MAC 魅可 时尚唇膏 #Chili 3克</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><span class="pl fr">6696人评论</span></p></li>
+                    </ul>-->
+                    <p>
+                    	<img src="../images/li2.jpg" width="262px" height="340px">
+                    	<img src="../images/li4.jpg" width="262px" height="340px" style="margin-left: 8px;">
+                    	<img src="../images/li3.jpg" width="262px" height="340px" style="margin-left: 8px;">
+                    	<img src="../images/li1.jpg" width="262px" height="340px" style="margin-left: 8px;">
+                    </p>
+                </div>
+            </div>
+            <!--大家都在买end-->
+        </div>
+    </main>
+    <footer id="Footer"></footer>
+    </body>
+</html>

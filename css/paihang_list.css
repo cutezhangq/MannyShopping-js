@@ -1,0 +1,406 @@
+@media only screen and (max-device-width: 1200px) {
+    header, #Main, Footer {
+        /*width:1520px;
+        height: 80px;*/
+        width: 90%;
+
+    }
+}
+
+@media only screen and (max-device-width: 980px) {
+    header, #Main, Footer {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-device-width: 640px) {
+    header, #Main, Footer {
+        width: 40%;
+
+    }
+}
+
+.panel-inverse{
+    	width: 350px;
+    	height: 970px;/*1073.8px*/
+    	float: left;
+    	margin-right: 20px;
+    }
+    .panel-inverse-center{
+    	width: 350px;
+    	height: 970px;
+    	float: left;
+    }
+    
+    .panel-inverse-right{
+    	width: 350px;
+    	height: 970px;
+    	float: left;
+    	margin-left: 20px;
+    }
+    .panel {
+    	border: none;
+    	-webkit-box-shadow: none;
+    	box-shadow: none;
+    	-webkit-border-radius: 3px;
+    	-moz-border-radius: 3px;
+    	border-radius: 3px;
+    	color: #fff;
+	}
+	.panel {
+		width: 32%;
+    	height: 100%;
+    	margin-bottom: 20px;
+    	background-color: #fff;
+    	border: 1px solid transparent;
+    	border-radius: 4px;
+    	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    	box-sizing: border-box;
+	}
+	div {
+    display: block;
+	}
+	body {
+    	line-height: 1.42857143;
+    	font-size: 12px;
+    	font-family: 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    	color: #707478;
+    	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	}
+	.ui-sortable .panel-heading {
+    	cursor: move;
+	}
+	.panel-inverse>.panel-heading {
+    	background: #242a30;
+	}
+	.panel-inverse-center>.panel-heading {
+    	background: #242a30;
+	}
+	.panel-inverse-right>.panel-heading {
+    	background: #242a30;
+	}
+	
+	.panel-heading {
+    	padding: 10px 15px;
+    	border: none;
+	}
+	.panel-heading {
+    	padding: 10px 15px;
+    	border-bottom: 1px solid transparent;
+    	border-top-right-radius: 3px;
+    	border-top-left-radius: 3px;
+	}
+	.panel-heading-btn {
+    	float: right;
+	}
+	.btn.btn-default {
+    color: #fff;
+    background: #b6c2c9;
+    border-color: #b6c2c9;
+	}
+	.btn-icon.btn-xs {
+    width: 16px;
+    height: 16px;
+    font-size: 8px;
+    line-height: 16px;
+	}
+	.btn-circle, .btn.btn-circle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+	.btn-icon, .btn.btn-icon {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: none;
+    line-height: 28px;
+    text-align: center;
+    font-size: 14px;
+}
+.panel-heading-btn>a {
+    margin-left: 8px;
+}
+.btn {
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.btn.btn-success {
+    color: #fff;
+    background: #00acac;
+    border-color: #00acac;
+}
+.btn.btn-warning {
+    color: #fff;
+    background: #f59c1a;
+    border-color: #f59c1a;
+}
+.btn.btn-danger {
+    color: #fff;
+    background: #ff5b57;
+    border-color: #ff5b57;
+}
+.btn-xs, .btn-group-xs>.btn {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	}
+	.panel-body {
+    	padding: 15px;
+	}
+.note.note-success {
+    border-color: red;
+    background: #ffb3a7;
+    color: #3c763d;
+    
+}
+.note {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 3px solid;
+}
+.note.note-info {
+    border-color: #ff8936;
+    background: #eacd76;
+    color: #31708f;
+}
+.note.note-info1 {
+    border-color:#f44cef6;
+    background: #bee2ef;
+    color: #31708f;
+}
+.note.note-infon {
+    border-color: #a1afc9;
+    background: #bacac6;
+    color: #31708f;
+}
+	/*品牌商排行*/
+	.pinpaishang-img1{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang1-1.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.pinpaishang-img2{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang1-2.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.pinpaishang-img3{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang1-3.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.pinpaishang-img4{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang1-4.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.pinpaishang-img5{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang1-5.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.pinpaishang-img6{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang1-6.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	/*商品排行*/
+	.shangpin-img1{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang2-1.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.shangpin-img2{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang2-2.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.shangpin-img3{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang2-3.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.shangpin-img4{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang2-4.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.shangpin-img5{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang2-5.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.shangpin-img6{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang2-6.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	/*借卖方排行*/
+	.jiemaifang-img1{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang3-1.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.jiemaifang-img2{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang3-2.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.jiemaifang-img3{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang3-3.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.jiemaifang-img4{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang3-4.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.jiemaifang-img5{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang3-5.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.jiemaifang-img6{
+		width: 84px;
+		height: 84px;
+		background: url(../images/paihang3-6.png);
+		background-size:  84px 84px;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.paihangbang-img{
+		width: 1903px;
+		height: 350px;
+		background: url(../images/paihangbang.png);
+		background-size:  1931px 400px;
+		background-repeat: no-repeat;
+		margin: auto;
+	}
+	
+
+/*奖牌
+.jiangpai1_1{
+	width: 10px;
+	height: 10px;
+	background: url(../images/jiangpai.png);
+	
+}
+*/

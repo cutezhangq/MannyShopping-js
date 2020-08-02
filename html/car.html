@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/gg.css" />
+    <link rel="stylesheet" type="text/css" href="../css/car.css" />
+    <link rel="stylesheet" type="text/css" href="../font-awesome-4.7.0/css/font-awesome.min.css" />
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../js/common.js" type="text/javascript"></script>
+    <script src="../js/car.js" type="text/javascript"></script> -->
+    <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/require.js" data-main="../js/car.js" async></script>
+</head>
+    <body>
+    <header id="Header"></header>
+    <main id="car_main">
+        <div class="container">
+        	<!--我的购物车-->
+            <div class="mycar">
+                <span class="yi">我的购物车</span>
+                <div class="fr"><i class="fa fa-volume-up fa-lg laba" aria-hidden="true"></i>曼尼自营商品已免运费 <i class="fa fa-question-circle-o" aria-hidden="true"></i> <span class="zaiguang">再逛逛></span>配送至 <span class="dizhi">广东/广州市/荔湾区<i class="fa fa-caret-down fr xiajian" aria-hidden="true"></i></span></div>
+            </div>
+            <!--全选-->
+            <div class="yqx">
+                <div class="fl"><input type="checkbox" class="quanxuan"/><span class="quan">全选</span></div>
+                <div class="sx fl">商品信息</div>
+                <div class="dj fl">单价(元)</div>
+                <div class="sl fl">数量</div>
+                <div class="je fl">金额(元)</div>
+                <div class="fl">操作</div>
+            </div>
+            <!--自营-->
+            <div class="ziy">
+                <input type="checkbox" class="zibao" checked/>
+                <img src="../images/ziying.png" alt="" />自营保税仓
+            </div>
+            <!--car中商品-->
+            <div class="sp">
+                <div class="luosuo">
+                    <img src="../images/renxuan.png" alt="" />已满足【99元任选3件】<span class="zaiguang">再逛逛></span>
+                </div>
+                <ul class="zhong_sp">
+                    <li>
+                        <input type="checkbox" class="danxuan fl"/>
+                        <img src="../images/li001.png" style="width:77px" alt="" class="tu fl"/>
+                        <div class="neirong fl">
+                            日本 | SHISEIDO 资生堂 UNO 男士洗面奶 黑炭控油型 130克
+                            <p><img src="../images/77.png" alt="" />支持7天无忧退货</p>
+                        </div>
+                        <div class="jiner fl">
+                            <del class="yuanjia">139.00</del>
+                            <div class="xianjia">68.00</div>
+                        </div>
+                        <div class="jj fl">
+                            <div class="jian fl">-</div>
+                            <input type="text" value="1" class="num fl"/>
+                            <div class="jia fl">+</div>
+                        </div>
+                        <div class="xi fl">
+                            <p class="xiaoji">78.00</p>
+                            <p class="sui"><i class="fa fa-question-circle-o" aria-hidden="true"></i>预计税费：￥7.53</p>
+                        </div>
+                        <div class="sch">
+                            <p class="shanchu">删除</p>
+                            <p class="yiru">移入我的收藏</p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="danxuan fl"/>
+                        <img src="../images/li4.jpg" alt="" class="tu fl"/>
+                        <div class="neirong fl">
+                            Beauty Buffet Scentio Q10牛奶洗面奶 100克/支 深层清洁
+                            <p><img src="../images/77.png" alt="" />支持7天无忧退货</p>
+                        </div>
+                        <div class="jiner fl">
+                            <del class="yuanjia">98.00</del>
+                            <div class="xianjia">39.00</div>
+                        </div>
+                        <div class="jj fl">
+                            <div class="jian fl">-</div>
+                            <input type="text" value="1" class="num fl"/>
+                            <div class="jia fl">+</div>
+                        </div>
+                        <div class="xi fl">
+                            <p class="xiaoji">78.00</p>
+                            <p class="sui"><i class="fa fa-question-circle-o" aria-hidden="true"></i>预计税费：￥7.53</p>
+                        </div>
+                        <div class="sch">
+                            <p class="shanchu">删除</p>
+                            <p class="yiru">移入我的收藏</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="houji">
+                    活动优惠：-￥<span class="youhui">0.00</span>
+                    商品应付总计：￥<span class="zhongji">83.00</span>
+                    预计税费：￥<span class="shuifei">0.00</span>
+                </div>
+            </div>
+            <!--end car中商品-->
+            <!--结算-->
+            <div class="j_s">
+                <input type="checkbox" class="quanxuan fl" />
+                <div class="qq fl">全选</div>
+                <div class="shanxuan fl">删除选中商品</div>
+                <div class="fansi fl">
+                    <p class="fs">已选商品<span class="shu"> 3 </span>件  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;总价(不含运费) ：<span class="zongjia">￥106.53</span></p>
+                    <p class="zaifan">活动优惠：-￥<span class="youhui">0.00</span>
+                    商品应付总计：￥<span class="zhongji">99.00</span>
+                    商品税费(不含运费税)：￥<span class="shuifei">0.0</span></p>
+                </div>
+                <div class="js_btn fl">去结算</div>
+            </div>
+            <!--end 结算-->
+            <h4 class="box0">
+                <div class="container">
+                    <span class="da">最佳搭配</span>
+                    <span class="dan">根据你的购物车商品推荐</span>
+                    <div class="gengduo fr" style="color:#999;">更多好货 ></div>
+                </div>
+            </h4>
+            <!--
+            <ul class="kykul">
+                    <li><img src="../images/d1.jpg" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+                    <li><img src="../images/d2.png" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+                    <li><img src="../images/d3.jpg" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+                    <li><img src="../images/d4.jpg" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+                    <li><img src="../images/d3.jpg" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+                    <li><img src="../images/d4.jpg" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+            </ul>-->
+            <p>
+            	<img src="../images/d1.1.png"  alt="" width="175px" height="290px"  />
+            	<img src="../images/d2.1.png"  alt="" width="175px" height="290px"  style="margin-left: 2px;"/>
+            	<img src="../images/d7.1.png"  alt="" width="175px" height="290px"  style="margin-left: 2px;"/>
+            	<img src="../images/d4.1.png"  alt="" width="175px" height="290px"  style="margin-left: 3px;"/>
+            	<img src="../images/d6.1.png"  alt="" width="175px" height="290px"  style="margin-left: 3px;"/>
+            	<img src="../images/d3.1.png"  alt="" width="175px" height="290px"  style="margin-left: 4px;"/>
+            </p>
+            
+            
+            <h4 class="box0">
+                <div class="container">
+                    <span class="da">猜你喜欢</span>
+                    <span class="dan">根据你的浏览记录推荐的商品</span>
+                    <div class="gengduo fr" style="color:#999;">更多好货 ></div>
+                </div>
+            </h4>
+            <!--<ul class="kykul">
+                    <li><img src="../images/d1.jpg" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+                    <li><img src="../images/d2.png" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+                    <li><img src="../images/d3.jpg" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+                    <li><img src="../images/d4.jpg" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+                    <li><img src="../images/d3.jpg" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+                    <li><img src="../images/d4.jpg" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+            </ul>-->
+            <p>
+            	<img src="../images/d8.1.png"  alt="" width="175px" height="290px"  />
+            	<img src="../images/d9.1.png"  alt="" width="175px" height="290px"  style="margin-left: 2px;"/>
+            	<img src="../images/d10.1.png"  alt="" width="175px" height="290px"  style="margin-left: 2px;"/>
+            	<img src="../images/d11.1.png"  alt="" width="175px" height="290px"  style="margin-left: 3px;"/>
+            	<img src="../images/d12.1.png"  alt="" width="175px" height="290px"  style="margin-left: 3px;"/>
+            	<img src="../images/d13.1.png"  alt="" width="175px" height="290px"  style="margin-left: 4px;"/>
+            </p>
+            
+            
+            <h4 class="box0">
+                <div class="container">
+                    <span class="da">大家都在买</span>
+                    <span class="dan">全网最热门的商品推荐</span>
+                    <div class="gengduo fr" style="color:#999;">更多好货 ></div>
+                </div>
+            </h4>
+            <!--<ul class="kykul">
+                    <li><img src="../images/d1.jpg" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+                    <li><img src="../images/d2.png" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+                    <li><img src="../images/d3.jpg" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+                    <li><img src="../images/d4.jpg" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+                    <li><img src="../images/d3.jpg" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+                    <li><img src="../images/d4.jpg" alt="" /><p class="p1">SHISEIDO 资生堂 UNO 男士泡沫快速洁面奶 150毫升</p><p class="p2"><span class="xianjia">￥312</span><del class="yuanjia">￥719</del><br /><span class="pl">6696人评论</span></p></li>
+            </ul>-->
+            <p>
+            	<img src="../images/d14.1.png"  alt="" width="175px" height="290px"  />
+            	<img src="../images/d15.1.png"  alt="" width="175px" height="290px"  style="margin-left: 2px;"/>
+            	<img src="../images/d16.1.png"  alt="" width="175px" height="290px"  style="margin-left: 2px;"/>
+            	<img src="../images/d17.1.png"  alt="" width="175px" height="290px"  style="margin-left: 3px;"/>
+            	<img src="../images/d18.1.png"  alt="" width="175px" height="290px"  style="margin-left: 3px;"/>
+            	<img src="../images/d19.1.png"  alt="" width="175px" height="290px"  style="margin-left: 4px;"/>
+            </p>
+            
+        </div>
+    </main>
+    <footer id="Footer"></footer>
+    </body>
+</html>

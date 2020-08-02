@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html xmlns="//www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" async="" src="./wallet2/wl.dev.js.下载"></script>
+    <title>曼尼钱包</title>
+    <meta name="Keywords" content="曼尼钱包">
+    <meta name="description" content="曼尼钱包">
+   
+    <link rel="icon" href="#" mce_href="#" type="image/x-icon">
+	<link rel="stylesheet" href="./wallet2/base.css">
+	<link rel="stylesheet" href="./wallet2/common.css">
+    <link rel="stylesheet" href="./wallet2/index.css">
+	
+    <link charset="utf-8" rel="stylesheet" href="./wallet2/grapevine.css">
+    <link charset="utf-8" rel="stylesheet" href="./wallet2/indexChart.css">
+    
+    <style>
+    	.fhgrzx{
+            width: 110px;
+    height: 26px;
+    color: black;
+    margin: 0 auto;
+    align-content: center;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: -28px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    border: 1px solid #BEBEBE;
+    margin-left: 21%;
+    	}
+    </style>
+</head>
+<!--top&footer部分-->
+<link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/gg.css" />
+    <link rel="stylesheet" type="text/css" href="../css/list.css" />
+    <link rel="stylesheet" type="text/css" href="../font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script src="../js/require.js" data-main="../js/list.js" async ></script>
+
+<body class="page-header">
+ <!--引入header部分
+    <header id="Header"></header>
+	<!--提示词条部分begin
+            <div class="box1">
+                <a href="#">全部结果</a> <i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>
+                <a href="#">个人中心</a> <i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>
+                <a href="#">钱包</a> <i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>
+                <input type="text" placeholder="在当前条件下搜索" class="x_shou"/><i class="fa fa-search fd" aria-hidden="true"></i><p class="sp">商品共<span style="color:#E31436">1108</span>个</p>
+            </div>
+        <!--提示词条部分end-->
+
+<!--container-->
+<div class="container">
+<!-- main -->
+<div class="main w">
+ <!-- m-nav 资产总览左侧导航 -->
+<div class="m-nav">
+    <div class="assets-nav" id="J_assets-nav" style="bottom: auto; top: 0px;">
+        <!-- an-userinfo 用户信息 -->
+        <div class="an-userinfo">
+            <a href="../html/my_dingdan.html">
+            <div class="u-img">
+                <span class="ui-mask"></span>
+                <img id="assetUserImage" src="../images/qianbaotouxiang.png" width="90px" height="90px" alt="">
+            </div>
+            </a>
+            <!--返回个人中心的按钮-->
+            <a href="../index.html" target="_self" style="width: 100px;">
+            	<div class="fhgrzx">返回首页</div>
+            </a>
+            
+            <div id="assetUserName" class="u-name"></div>
+        <div id="assetUserWelcome" class="u-ext">
+            	<div class="u-security">
+            	<a class="j_userSecurityIcon u-security-icon u-security-icon-person risky" href="#" target="_blank" data-msg="完成实名认证，可享受白条、理财等专属服务及提升个人账户信用度与安全保障！&lt;a class=&#39;font-link&#39; href=&#39;/auth/toAuthPage.action&#39; target=&#39;_blank&#39;&gt;立即认证&lt;/a&gt;"></a>
+				<a class="j_userSecurityIcon u-security-icon u-security-icon-phone " href="#" target="_blank" data-msg="您已绑定手机139****7169。"></a>
+				<a class="j_userSecurityIcon u-security-icon u-security-icon-level risky" href="#" target="_blank" data-msg="安全等级：低  &lt;a class=&#39;font-link&#39; href=".com/account/home&#39; target=&#39;_blank&#39;&gt;立即提升&lt;/a&gt;"></a><a class="j_userSecurityIcon u-security-icon u-security-icon-safe " href="#bao.com/giftpolicy/pc/receiveMain?productCode=21000002&amp;source=JRPC&amp;resourcePlace=zcmenu" target="_blank" data-msg="曼尼小金库、理财、白条、钱包账户资金被盗，账户安全险最高可赔付100万元 &lt;a class=&#39;font-link&#39; href=&#39;https://bao.manni.com/giftpolicy/pc/receiveMain?productCode=21000002&amp;source=JRPC&amp;resourcePlace=zcmenu&#39; target=&#39;_blank&#39;&gt;领取百万保障&lt;/a&gt;"></a></div></div>
+        		</div>
+        
+        <!-- an-userinfo 用户信息 end -->
+        <!-- an-list 导航列表 -->
+        <div class="an-list" id="J_an-list">
+        	<ul>
+        	<li id="assets-index" class="l-item current">
+        		<a href="#">资产总览<b></b></a>
+        	</li>
+        	<li id="assets-myGold" class="l-item">
+        		<a href="#">曼尼小金库<b></b></a></li>
+        	<li id="assets-myMoney" class="l-item">
+        		<a href="#">我的理财<b></b></a>
+        	</li>
+        	<li id="assets-myZmore" class="l-item">
+        		<a href="#">我的众筹<b></b></a>
+        	</li>
+        	<li id="assets-mySafe" class="l-item">
+        		<a href="#">我的保单<b></b></a>
+        	</li>
+        	<li id="assets-baitiao" class="l-item">
+        		<a href="#">我的白条<b></b></a>
+        	</li>
+        	<li id="assets-baitiaoPlus" class="l-item">
+        		<a href="#">白条贷款<b></b></a>
+        	</li>
+        	<li id="assets-myCaimi" class="l-item">
+        		<a href="#">我的股票<b></b></a>
+        	</li>
+        	<li id="assets-myDeal" class="l-item">
+        		<a href="#">我的交易单<b></b></a>
+        	</li>
+        	<li id="assets-myCare" class="l-item">
+        		<a href="#">我的关注<b></b></a>
+        	</li>
+        	<li id="assets-myMsg" class="l-item">
+        		<a href="#">消息中心<b></b></a>
+        	</li>
+        </ul>
+        </div>
+        <!-- an-list 导航列表 end -->
+        <!--<div class="an-app"></div>-->   
+    </div>
+</div>
+	
+<!-- m-nav 资产总览左侧导航 end -->
+
+<div class="m-content">
+<div id="notice_overview"></div>
+<div class="myasset">
+	
+<!--begin 我的资产-->	
+<div class="mya-rich">
+    <a class="r-eye" id="J_r-eye" href="javascript:eyeClickOverview();" title="隐藏/显示金额" clstag="jr|keycount|jr_zczl|jr_zczl_hidemoney"></a>
+	<a id="J_r-bank" class="r-bank" target="_blank" title="管理银行卡" href="#"></a>
+        <a class="r-prove" id="J_r-prove" title="申请资产证明" href="javascript:;" style="display: none;"></a>
+        <div class="r-left">
+    	<a id="sellingTips" class="r-tip" target="_blank" href="#" style="display: none;" clstag="jr|keycount|jr_zczl|jr_zczl_shzxq"></a>
+        <div class="r-head">
+            <div class="clearfix">
+                <h2 class="mya-tip">我的资产</h2>
+                
+                            </div>
+            <div class="r-h-price j_eye-line" id="allBalance">2019.98</div>
+        </div>
+        <table class="r-box">
+            <colgroup>
+                <col width="56">
+                <col width="124">
+                <col>
+            </colgroup>
+            <tbody><tr>
+                <td>
+                    <div class="r-b-circle-box">
+                        <div class="r-b-c-pop j_eye-hide">
+                            <em class="r-b-c-p-ico"></em>
+                            <p>曼尼小金库： <span id="jrbBalanceSlave">2.00</span></p>
+                            <p>冻结金额： <span id="jrbBalanceFreeze">0.00</span></p>
+                            <p>占资产比重：  <span id="jrbBalancePercentSlave">0%</span></p>
+                            <p>昨日收益： <strong class="font-grey1" id="currIncomeFont"><span id="currIncome">2.00</span></strong></p>
+                            <p>累计收益： <span id="totalIncomeSlave">6.00</span></p>
+                        </div>
+                        <span class="r-b-circle1"><i class="r-b-circleSolid"></i> <em class="r-b-circleTxt" id="jrbBalancePercent">0.2%</em></span>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                                                                      曼尼小金库
+                        <div class="r-b-pop" id="freeze_mark" style="display:none;">
+                            <em class="r-b-p-ico">冻</em>
+                            <em class="r-b-p-arrow"></em>
+                            <div class="r-b-p-box"><a class="font-link" href="#" onclick="toFreezeList();">目前有<span id="xjk_freeze">0.00</span>元被冻结，无法转出或消费，但仍会计算收益。查看详情 &gt;</a></div>
+                        </div>
+                        <form id="freezeForm" action="https://trade.jr.com/myxjk/jrbincome.action" target="_blank" method="post"> <input id="resultType" name="resultType" type="hidden" value="3"></form>
+                    </div>
+                    <div id="jrbBalance" class="r-b-price j_eye-line">0.00</div>
+                </td>
+                
+                <td>
+                    <a class="ui-button" href="#" target="_blank" clstag="jr|keycount|jr_zczl|jr_zczl_zr">转入</a>
+                    <a class="r-b-link" href="#" target="_blank" clstag="jr|keycount|jr_zczl|jr_zczl_zc">转出</a>
+                    <a id="overViewDetail" class="r-b-link" href="#" target="_blank" clstag="jr|keycount|jr_zczl|jr_zczl_xjkxq">详情</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="r-b-circle-box">
+                        <div class="r-b-c-pop j_eye-hide">
+                            <em class="r-b-c-p-ico"></em>
+                            <p>我的理财： <span id="historyBalanceSlave">0.00</span></p>
+                            <p>占资产比重： <span id="historyBalancePercentSlave">0%</span></p>
+                            <p>昨日收益： <strong class="font-grey1" id="incomeFinanceYesterdayFont"><span id="incomeFinanceYesterday">0.00</span></strong></p>
+                            <p>累计收益： <span id="incomeFinanceSumSlave">0.00</span></p>
+                        </div>
+                        <span class="r-b-circle2"><i class="r-b-circleSolid"></i> <em class="r-b-circleTxt" id="historyBalancePercent">0%</em></span>
+                    </div>
+                </td>
+                <td>
+                    <p>我的理财</p>
+                    <p class="r-b-price j_eye-line" id="historyBalance">0.00</p>
+                </td>
+                <td>
+                    <a class="r-b-link" href="#" target="_blank" clstag="jr|keycount|jr_zczl|jr_zczl_lcxq">详情</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="r-b-circle-box">
+                        <div class="r-b-c-pop j_eye-hide">
+                            <em class="r-b-c-p-ico"></em>
+                            <p>曼尼钱包： <span id="walletBalanceSlave">0.00</span></p>
+                            <p>占资产比重：<span id="walletBalancePercentSlave">0%</span> </p>
+                        </div>
+                        <span class="r-b-circle3"><i class="r-b-circleSolid"></i> <em class="r-b-circleTxt" id="walletBalancePercent">0%</em></span>
+                    </div>
+                </td>
+                <td>
+                	<div>
+                                                             曼尼钱包
+                        <div class="r-b-pop" id="walletDongDiv" style="display: none;">
+                            <em class="r-b-p-ico">冻</em>
+                            <em class="r-b-p-arrow"></em>
+                            <div class="r-b-p-box"><a class="font-link" target="_blank">目前有<span id="walletBalanceDong">-.-</span>元因特殊业务处理中而被冻结</a></div>
+                        </div>
+                    </div>
+                    <div class="r-b-price j_eye-line" id="walletBalance">0.00</div>
+                	
+                </td>
+                <td>
+                    <a class="r-b-link" href="#" target="_blank" clstag="jr|keycount|jr_zczl|jr_zczl_cz">充值</a>
+                    <a class="r-b-link" href="#" target="_blank" clstag="jr|keycount|jr_zczl|jr_zczl_tx">提现</a>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+    <div class="r-right">
+        <div class="r-head">
+            <div class="clearfix">
+                <h2 class="mya-tip">我的负债</h2>
+                        </div>
+            <div class="r-h-price j_eye-line" id="totalDebt">0.00</div>
+        </div>
+        <table class="r-box">
+            <colgroup>
+                <col width="56">
+                <col width="105">
+                <col>
+            </colgroup>
+            <tbody><tr>
+                <td>
+                    <div class="r-b-circle-box">
+                        <div class="r-b-c-pop j_eye-hide">
+                            <em class="r-b-c-p-ico"></em>
+                            <p>白条待还款： <span id="creditDebtSlave">0.00</span></p>
+                            <p>占负债比重： <span id="creditDebtPercentSlave">0%</span></p>
+                            <p>近七日待还： <span id="creditDebtSevenSlave">0.00</span></p>
+                            <p>白条可用额度： <span id="availableLimitSlave">0.00</span></p>
+                            <p>白条总额度： <span id="creditLimitSlave">0.00</span></p>
+                        </div>
+                        <span class="r-b-circle4 size12"><i class="r-b-circleSolid"></i> <em class="r-b-circleTxt" id="creditDebtPercent">0%</em></span>
+                    </div>
+                </td>
+                <td>
+                    <p>曼尼白条待还款</p>
+
+                    <p class="r-b-price j_eye-line" id="creditDebt">0.00</p>
+                </td>
+                <td>
+                    <span class="r-b-info j_eye-paid" id="creditDebtSeven">近七日无须还款</span>
+                    <span style="display: none;" id="creditDebtButton"><a class="ui-button" href="#" target="_blank" clstag="jr|keycount|jr_zczl|jr_zczl_mannibt_hk">还款</a></span>
+					<span style="" id="activateButton"><a class="ui-button" href="#" target="_blank" clstag="jr|keycount|jr_zczl|jr_zczl_mannibt_jh">激活白条</a></span>
+					<span style="display: none;" id="mannibtDetail"><a class="r-b-link" target="_blank" href="#" clstag="jr|keycount|jr_zczl|jr_zczl_mannibt_xq">详情</a></span>
+                </td>
+            </tr>
+             
+                        <tr id="tourCreditArea" style="display: none">
+                <td>
+                    <div class="r-b-circle-box">
+                        <div class="r-b-c-pop j_eye-hide">
+                            <em class="r-b-c-p-ico"></em>
+                            <p>白条+待还款： <span id="tourDebtSlave"></span></p>
+                            <p>占负债比重： <span id="tourDebtPercentSlave"></span></p>
+                            <p>近七日待还： <span id="tourDebtSevenSlave"></span></p>
+                            <p>白条+可用额度： <span id="tourAvailableLimitSlave"></span></p>
+                            <p>白条+总额度： <span id="tourCreditLimitSlave"></span></p>
+                        </div>
+                        <span class="r-b-circle5 size12"><i class="r-b-circleSolid"></i> <em class="r-b-circleTxt" id="tourDebtPercent">0%</em></span>
+                    </div>
+                </td>
+                <td>
+                    <p>白条+待还款</p>
+                    <p class="r-b-price j_eye-line" id="tourDebt">0.00</p>
+                </td>
+                <td>
+                    <span class="r-b-info j_eye-paid" id="tourDebtSeven"></span>
+                    <span style="display: none;" id="tourDebtButton"><a class="ui-button" href="#" target="_blank" clstag="jr|keycount|jr_zczl|jr_zczl_lybt_hk">还款</a></span>
+                    <span style="display: none;" id="tourDebtDetail"><a class="r-b-link" target="_blank" href="#" clstag="jr|keycount|jr_zczl|jr_zczl_lybt_xq">详情</a></span>
+					                </td>
+            </tr>
+
+			<tr id="jtBussinessLoanArea" style="display: none">
+                <td>
+                    <div class="r-b-circle-box">
+                        <div class="r-b-c-pop j_eye-hide">
+                            <em class="r-b-c-p-ico"></em>
+                            <p>金条待还款： <span id="jtCreditDebtSlave"></span></p>
+                            <p>占负债比重： <span id="jtCreditDebtPercentSlave"></span></p>
+                            <p>近七日待还： <span id="jtCreditDebtSevenSlave"></span></p>
+                            <p>金条可用额度： <span id="jtAvailableLimitSlave"></span></p>
+                            <p>金条总额度： <span id="jtCreditLimitSlave"></span></p>
+                        </div>
+                        <span class="r-b-circle5 size12" id="jtBussinessLoanCircle"><i class="r-b-circleSolid"></i> <em class="r-b-circleTxt" id="jtBussinessLoanPercent">0%</em></span>
+                    </div>
+                </td>
+                <td>
+                    <p>金条待还款</p>
+                    <p class="r-b-price j_eye-line" id="jtBussinessLoanDebt">0.00</p>
+                </td>
+                <td>
+                    <span class="r-b-info j_eye-paid" id="jtBussinessLoanSeven"></span>
+                    <span style="display: none;" id="jtDebtButton"><a class="ui-button" href="#" target="_blank" clstag="jr|keycount|jr_zczl|jr_zczl_mannibt_hk">还款</a></span>
+                    <span style="display: none;" id="mannijtDetail"><a class="r-b-link" target="_blank" href="#" clstag="jr|keycount|jr_zczl|jr_zczl_mannibt_xq">详情</a></span>
+                </td>
+            </tr>
+
+            <tr id="jieqianBussinessLoanArea" style="display: none">
+                <td>
+                    <div class="r-b-circle-box">
+                        <span class="r-b-circle6" id="jieqianBussinessLoanCircle"><i class="r-b-circleSolid"></i> <em class="r-b-circleTxt" id="jieqianBussinessLoanPercent">0%</em></span>
+                    </div>
+                </td>
+                <td>
+                    <p>借钱还款</p>
+                    <p class="r-b-tip">支持不同资方还款</p>
+                </td>
+                <td>
+                    <span class="r-b-info j_eye-paid" id="jieqianBussinessLoanSeven">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span style="display: none;" id="jieqianDebtButton"><a id="jieqianDebtUrl" class="ui-button" href="javascript:;" target="_blank" clstag="jr|keycount|jr_zczl|jr_zczl_mannibt_hk">还款</a></span>
+                </td>
+            </tr>
+
+            <tr id="elseLoanArea" style="">
+                <td>
+                    <div class="r-b-circle-box">
+                       <span class="r-b-circle0"><em>0%</em></span>
+                    </div>
+                </td>
+                <td>
+                    <p>其他借款</p>
+                    <p class="r-b-tip">敬请期待...</p>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+</div>
+<!--end 我的资产-->
+
+<!--划分线-->
+<div class="mya-line"><div class="ui-dbline"></div></div>
+
+<!--今日最新收益 begin-->
+<div class="mya-profit">
+    <div class="p-rich">
+		        <div class="p-r-left">
+            <div class="p-r-head">
+                <div class="clearfix">
+                    <h2 class="mya-tip">今日最新收益</h2>
+                    <div class="p-r-h-pop">
+                        <em class="p-r-h-p-ico"></em>
+                        <em class="p-r-h-p-arrow"></em>
+                        <div class="p-r-h-p-box">显示今日确认的汇总收益，<a class="font-link" href="#" target="_blank">查看详情&gt;</a></div>
+                    </div>
+                </div>
+                <div class="p-r-h-price j_eye-line font-size28-s" id="incomeSumYesterdaySlave1">暂无收益</div>
+                
+
+            </div>
+        </div>
+        <div class="p-r-right">
+            <div class="p-r-head">
+                <div class="clearfix">
+                    <h2 class="mya-tip">累计收益</h2>
+                </div>
+                <div class="p-r-h-price j_eye-line" id="incomeFinanceSum">0.00</div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="p-chart">
+        <div id="J_indexChart" class="r-coffers-chart" style="top: 0;left: 0;"><div class="coffers-charts" style="width: 910px; height: 60px;"><div class="cc-wrap"><div class="cc-item" data-date="2018-12-08" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span>12-08</span></div><div class="cc-item" data-date="2018-12-09" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-10" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-11" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-12" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-13" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-14" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-15" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-16" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-17" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-18" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-19" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-20" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-21" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-22" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-23" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-24" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-25" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-26" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-27" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-28" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-29" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-30" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2018-12-31" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-01" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-02" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-03" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-04" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-05" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-06" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-07" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-08" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-09" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span>01-09</span></div><div class="cc-item" data-date="2019-01-10" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-11" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-12" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-13" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-14" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-15" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-16" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-17" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-18" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-19" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-20" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-21" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-22" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-23" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-24" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-25" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-26" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-27" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-28" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-29" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-30" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-01-31" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-02-01" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-02-02" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-02-03" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-02-04" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-02-05" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-02-06" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-02-07" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-02-08" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-02-09" data-income="0.00"><em style="height:5%" data-height="NaN%"></em><span></span></div><div class="cc-item" data-date="2019-02-10" data-income="0.00"><em style="height:5%" data-height="NaN%"><i class="cc-i-e-pin cc-i-e-pin--show"></i></em><span>昨天</span></div><div class="cc-item"><em style="height:5%"></em><span></span></div></div></div></div>
+    </div>
+</div>
+<!--今日最新收益 end-->
+<div class="mya-line"><div class="ui-dbline"></div></div>
+
+	<!--小白精选 begin-->
+    <div class="mya-select">
+        <h3 class="s-title">
+            <span class="mya-title">小白精选</span>
+            <a class="s-t-more" href="#" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_gdyxlc">全部小白精选 &gt;</a>
+        </h3>
+        <div class="s-head">
+            <div class="ui-select-listBox">
+                <ul class="clearfix">
+                    <li class="ui-select-listBox-list ui-select-listBox-list--now" onclick="showOverviewSelect(0);" clstag="jr|keycount|jr_zczl|jr_yxlc_tab1"><span>全部</span><i class="ui-select-listBox-l-line">|</i></li>
+                    <li class="ui-select-listBox-list" onclick="showOverviewSelect(1);" clstag="jr|keycount|jr_zczl|jr_yxlc_tab2"><span>0-3个月</span><i class="ui-select-listBox-l-line">|</i></li>
+                    <li class="ui-select-listBox-list" onclick="showOverviewSelect(2);" clstag="jr|keycount|jr_zczl|jr_yxlc_tab3"><span>3-6个月</span><i class="ui-select-listBox-l-line">|</i></li>
+                    <li class="ui-select-listBox-list" onclick="showOverviewSelect(3);" clstag="jr|keycount|jr_zczl|jr_yxlc_tab4"><span>6-12个月</span><i class="ui-select-listBox-l-line">|</i></li>
+                    <li class="ui-select-listBox-list" onclick="showOverviewSelect(4);" clstag="jr|keycount|jr_zczl|jr_yxlc_tab5"><span>12个月以上</span></li>
+                </ul>
+                <div class="ui-select-listBox-line">
+                    <div class="ui-select-listBox-l-red" style="left: -1px; width: 113px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="s-table-bg" style="display: block;">
+            <table class="s-table" id="overviewSelect0"><colgroup><col width="120"><col width="280"><col width="300"><col width=""></colgroup><tbody><tr><th>年化收益率</th><th>期限/锁定期</th><th class="t-left">产品名称</th><th>操作</th></tr><tr><td><p class="font-red"><em class="font-size22">5.50</em>%</p><p class="font-grey1">历史年化结算利率</p></td><td><p><em class="font-size22">1825</em>天</p><p class="font-grey1">5年后领取无手续费</p></td><td class="t-left"><p><a class="t-name" href="#" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_bxlc_10049001000001">京爱心享盈</a></p></td><td><p><a class="ui-button" href="#dq.manni.com/insurance/item/10049001000001" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_bxlc_10049001000001">立即购买</a></p></td></tr><tr><td><p class="font-red"><em class="font-size22">3.91</em>%</p><p class="font-grey1">近七日年化</p></td><td><p><em class="font-size22">30</em>天</p><p class="font-grey1">建信养老金管理有限责任公司</p></td><td class="t-left"><p><a class="t-name" href="#dq.manni.com/pension/item/130020001" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_ylbz_130020001">建信养老飞益鑫</a></p></td><td><p><a class="ui-button" href="#dq.manni.com/pension/item/130020001" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_ylbz_130020001">立即购买</a></p></td></tr><tr><td><p class="font-red"><em class="font-size22">4.79</em>%</p><p class="font-grey1">近七日年化</p></td><td><p><em class="font-size22">360</em>天</p><p class="font-grey1">平安养老保险股份有限公司</p></td><td class="t-left"><p><a class="t-name" href="#dq.manni.com/pension/item/130030009" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_ylbz_130030009">平安360天周期盈</a></p></td><td><p><a class="ui-button" href="#dq.manni.com/pension/item/130030009" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_ylbz_130030009">立即购买</a></p></td></tr><tr><td><p class="font-red"><em class="font-size22">4.28</em>%</p><p class="font-grey1">近七日年化</p></td><td><p><em class="font-size22">31</em>天</p><p class="font-grey1">安邦养老保险股份有限公司</p></td><td class="t-left"><p><a class="t-name" href="#dq.manni.com/pension/item/130050002" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_ylbz_130050002">安邦养老安增益4号</a></p></td><td><p><a class="ui-button" href="#dq.manni.com/pension/item/130050002" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_ylbz_130050002">立即购买</a></p></td></tr><tr><td><p class="font-red"><em class="font-size22">3.35</em>%</p><p class="font-grey1">七日年化收益率</p></td><td><p><em class="font-size16">申赎灵活</em></p><p class="font-grey1">申赎灵活 收益日结</p></td><td class="t-left"><p><a class="t-name" href="#xjk.jr.manni.com/index.htm" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_jklc_J50060003">曼尼小金库</a></p></td><td><p><a class="ui-button" id="xjkAUrl" href="#trade.jr.manni.com/xjkin/topayin.action" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_jklc_J50060003">立即购买</a></p></td></tr><tr><td><p class="font-red"><em class="font-size22">4.75</em>%</p><p class="font-grey1">最近七日年化收益率</p></td><td><p><em class="font-size22">活期</em></p></td><td class="t-left"><p><a class="t-name" href="#fund.manni.com/detail/106286.html" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_hbjj_106286">北信瑞丰宜投宝B</a></p></td><td><p><a class="ui-button" href="#fund.manni.com/detail/106286.html" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_hbjj_106286">立即购买</a></p></td></tr><tr><td><p class="font-red"><em class="font-size22">4.50</em>%</p><p class="font-grey1">最近七日年化收益率</p></td><td><p><em class="font-size22">活期</em></p></td><td class="t-left"><p><a class="t-name" href="#fund.manni.com/detail/108170.html" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_hbjj_108170">国投瑞银货币B</a></p></td><td><p><a class="ui-button" href="#fund.manni.com/detail/108170.html" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_hbjj_108170">立即购买</a></p></td></tr><tr><td><p class="font-red"><em class="font-size22">4.49</em>%</p><p class="font-grey1">最近七日年化收益率</p></td><td><p><em class="font-size22">活期</em></p></td><td class="t-left"><p><a class="t-name" href="#fund.manni.com/detail/106295.html" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_hbjj_106295">北信瑞丰宜投宝A</a></p></td><td><p><a class="ui-button" href="#fund.manni.com/detail/106295.html" target="_blank" clstag="jr|keycount|jr_zczl|jr_yxlc_hbjj_106295">立即购买</a></p></td></tr></tbody></table>
+        </div>
+        <div class="s-table-bg" style="display: none;">
+            <table class="s-table" id="overviewSelect1">
+            </table>
+        </div>
+        <div class="s-table-bg" style="display: none;">
+            <table class="s-table" id="overviewSelect2">
+            </table>
+        </div>
+        <div class="s-table-bg" style="display: none;">
+            <table class="s-table" id="overviewSelect3">
+            </table>
+        </div>
+        <div class="s-table-bg" style="display: none;">
+            <table class="s-table" id="overviewSelect4">
+            </table>
+        </div>
+    </div>
+    <!--小白精选 end-->
+    
+<div class="mya-line"><div class="ui-dbline"></div></div>
+	<!--交易记录 begin
+    <div class="mya-history">
+        <h2 class="mya-title">交易记录</h2>
+        <div class="h-ulist" id="tradeBuyDataDiv"><div class="ui-noRecord">暂无记录</div></div>
+    </div>
+    交易记录 end-->
+    
+    <div class="mya-line"><div class="ui-dbline"></div></div>
+    <!--猜你喜欢  begin-->
+    <div class="mya-ulike">
+    <h3 class="u-likeTitle">
+        <span class="mya-title">猜你喜欢</span>
+        <a class="u-l-switch" href="javascript:;" onclick="showRecommendData(++adLoveIndex)" clstag="jr|keycount|jr_zczl|jr_cnxh_hyz"><em class="u-l-s-ico"></em>换一组</a>
+    </h3>
+    <div class="u-like clearfix" id="drLikeDiv">
+    	<div class="u-l-list">
+    		<a class="u-l-l-title" target="_blank" clstag="jr|keycount|jr_zczl|jr_cnxh_100019_48_2001_105854_1" href="#">
+    			鹏华丰泽债券型证券投资基金（LOF）
+    		</a> 
+    		<div class="u-l-l-number">
+    			<em class="u-l-l-num">6.21</em>%
+    		</div>    
+    		<div class="u-l-l-tip">最近六月增长率</div>
+    		<div class="u-l-l-info">中低风险 | 10元起购</div> 
+    		<div class="u-l-l-button">
+    			<a class="ui-button" clstag="jr|keycount|jr_zczl|jr_cnxh_100019_48_2001_105854_1" target="_blank" fund.manni.com/detail/105854.htm?from=cnxh_1_100019_48_2001_105854_1" >
+    				立即抢购
+    			</a>             
+    		</div>        
+    		</div>
+    	<div class="u-l-list"><a class="u-l-l-title" target="_blank" clstag="jr|keycount|jr_zczl|jr_cnxh_100019_48_2001_105854_2" href="#">泓德添利货币市场基金（B类）</a> <div class="u-l-l-number"><em class="u-l-l-num">2.82</em>%</div>    <div class="u-l-l-tip">近7日年化收益率</div><div class="u-l-l-info">低风险 | 5000000元起购</div>             <div class="u-l-l-button"><a class="ui-button" clstag="jr|keycount|jr_zczl|jr_cnxh_100019_48_2001_105854_2" target="_blank" href="#">立即抢购</a>             </div>        </div><div class="u-l-list"><a class="u-l-l-title" target="_blank" clstag="jr|keycount|jr_zczl|jr_cnxh_100019_48_2001_105854_3" href="#">泓德添利货币市场基金（A类）</a> <div class="u-l-l-number"><em class="u-l-l-num">2.57</em>%</div>    <div class="u-l-l-tip">近7日年化收益率</div><div class="u-l-l-info">低风险 | 100元起购</div>             <div class="u-l-l-button"><a class="ui-button" clstag="jr|keycount|jr_zczl|jr_cnxh_100019_48_2001_105854_3" target="_blank" href="#">立即抢购</a>             </div>        </div><div class="u-l-list"><a class="u-l-l-title" target="_blank" clstag="jr|keycount|jr_zczl|jr_cnxh_100019_48_2001_105854_4" href="#">中信建投凤凰货币市场基金</a> <div class="u-l-l-number"><em class="u-l-l-num">2.25</em>%</div>    <div class="u-l-l-tip">近7日年化收益率</div><div class="u-l-l-info">低风险 | 0元起购</div>             <div class="u-l-l-button"><a class="ui-button" clstag="jr|keycount|jr_zczl|jr_cnxh_100019_48_2001_105854_4" target="_blank" href="#">立即抢购</a>             </div>        </div><div class="u-l-list"><a class="u-l-l-title" target="_blank" clstag="jr|keycount|jr_zczl|jr_cnxh_100019_48_2001_105854_5" href="#">南方理财60天债券型证券投资基金B类</a> <div class="u-l-l-number"><em class="u-l-l-num">3.16</em>%</div>    <div class="u-l-l-tip">近7日年化收益率</div><div class="u-l-l-info">低风险 | 5000000元起购</div>             <div class="u-l-l-button"><a class="ui-button" clstag="jr|keycount|jr_zczl|jr_cnxh_100019_48_2001_105854_5" target="_blank" href="#">立即抢购</a>             </div>        </div><div class="u-l-list"><a class="u-l-l-title" target="_blank" clstag="jr|keycount|jr_zczl|jr_cnxh_100019_48_2001_105854_6" href="#">诺安双利债券型发起式证券投资基金</a> <div class="u-l-l-number"><em class="u-l-l-num">13.24</em>%</div>    <div class="u-l-l-tip">最近六月增长率</div><div class="u-l-l-info">中低风险 | 1000元起购</div>             <div class="u-l-l-button"><a class="ui-button" clstag="jr|keycount|jr_zczl|jr_cnxh_100019_48_2001_105854_6" target="_blank" href="#">立即抢购</a>             </div>        </div></div>
+    </div>
+	<!--猜你喜欢  end-->
+</div>
+</div>
+
+</div>
+<!-- main end -->
+	</div>
+<!--container end-->
+</div>
+
+<input type="hidden" id="showFlag" value="0">
+<input type="hidden" id="userMsg" value="597C864FA16BE621C2480041F5D8F18E">
+<input type="hidden" id="eyeDateShow" value="1" autocomplete="off">
+<!--container end-->
+
+<!-- pop -->
+<div id="J_pop1" class="ui-pop">
+    <a class="ui-pop-close js_pop-close" href="javascript:;"></a>
+    <div class="ui-pop-head">资产证明</div>
+    <div class="ui-pop-content">
+        <div class="myasset-pop1">
+            <div class="info">
+                <form id="proofForm" method="post">
+                    <div class="i-title">为保障您的隐私，请输入以下验证方式</div>
+                    <div class="i-input" id="proofNameDiv">
+                        <input class="i-i-txt" id="proofName" name="proofName" type="text" placeholder="请输入姓名">
+                        <p class="i-i-warning">姓名输入有误</p>
+                    </div>
+                    <div class="i-input" id="proofIdDiv">
+                        <input class="i-i-txt" id="proofIdNo" name="proofIdNo" type="text" placeholder="请输入身份证后六位">
+                        <p class="i-i-warning">身份证输入有误</p>
+                    </div>
+                                            <div class="i-button" id="applyProofBtn"><a class="ui-button" href="javascript:verifyUser();">申请并下载</a></div>
+                                        <div class="i-note">注：资产证明常作为出国签证、银行贷款、财产纠纷、税务稽查等事务的证明材料；资产证明的法律效力以有关单位实际判断为准；24小时内限申请下载2次。</div>
+                    <input type="hidden" id="type" name="type" value="1">
+                    <input type="hidden" id="enableProof" name="enableProof" value="0">
+                </form>
+            </div>
+            <div class="prove"><img src="./wallet2/prove.png" alt=""></div>
+        </div>
+    </div>
+</div>
+<!-- pop end-->
+
+<!--script start-->
+<script type="text/javascript">
+    //资产总览
+    var google_tag_params = {
+        dynx_itemid:[''],
+        dynx_prodtype:['my_jrb_trade'],
+        dynx_pagetype:['category'],
+        dynx_usertype:['']
+    };
+    var conversion_value =null;
+</script>
+<script type="text/javascript">
+    dataLayer = [{'google_tag_params': window.google_tag_params,"conversion_value":window.conversion_value}];
+</script>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+#Header{
+    cursor:default;position:relative;
+    .qiangou{
+        width: 60px;height: 213px;border:1px solid #ddd;background:#fff;color:#333;text-align:center;font-size:12px;position:absolute;right:0;top:586px;z-index:777;
+        ul{overflow:hidden;
+            li{width: 60px;height: 58px;border-bottom:1px solid #ddd;padding-top:13px;position:relative;}
+            .hongdian{position:absolute;right:0;top:0;width: 20px;height: 20px;line-height: 20px;color:#fff;background:#e31436;margin:5px 5px 0 0;border-radius:50%;display:none;}
+        }
+        .fanding{height: 38px;background:#999;color:#fff;
+            .shang{height: 10px;vertical-align: -45%;}
+        }
+    }
+    .box1{
+        a{color:#333;}
+        overflow:hidden;width: 100%;height: 30px;background:#F2F2F2;font-size:12px;line-height: 30px;color:#333;
+        .box1_left{float:left;width: 300px;
+            .denglu{margin:0 11px 0 15px;}
+            .zhuce{
+                margin:0 30px 0 11px;
+            }
+            .shouji{color:red;font-size:16px;}
+        }
+        .box1_right{
+            float:right;
+            .qi{color:red;}
+            .jian{vertical-align:20%;}
+            a{margin:0 13px;}
+        }
+    }
+    .box2{
+        height: 100px;overflow:hidden;padding-top:23px;
+        .zhong{
+            width: 520px;margin-left:127px;position:relative;
+            .fd{position:absolute;left:10px;top:10px;color:#eee;}
+            .shuru{width: 460px;height: 37px;border:2px solid #333333;border-right:none;padding-left:31px;}
+            .btn{width: 52px;height: 37px;border-top-right-radius:3px;border-bottom-right-radius:3px;background:#333;color:#fff;font-size:24px;vertical-align:top ;}
+            .jy{
+                font-size:12px;color:#999;margin-top:5px;
+                a{margin:0 10px;color:#999;}
+                a:first-child{margin-left:0;}
+            }
+        }
+        .you{
+            width: 111px;height: 37px;background:#fff;border:1px solid #ccc;padding-left:24px;line-height: 37px;border-radius:3px;font-size:13px;color:#333;position:relative;
+            .hongdian{position:absolute;right:0;top:0;width: 20px;height: 20px;line-height: 20px;color:#fff;background:#e31436;margin:9px 8px 0 0;border-radius:50%;display:none;text-align:center;}
+            .car{color:#A9A9A9;}
+        }
+        .you:hover{background:#F6F6F6;}
+    }
+    .nav{
+        height: 42px;border-bottom:2px solid #151515;cursor:default;
+        .yiji{
+            font-size:15px;line-height: 42px;
+            .dh{float:left;margin-right:50px;color:#151515;font-weight:600;}
+            .dh1{width: 161px;background:#151515;color:#fff;text-align:center;position:relative;
+                .erji{
+                    width: 160px;height: 400px;padding:0 10px;background: rgba(15,15,15,0.82);position:absolute;top:42px;z-index:999;display:none;
+                    .eli{height: 40px;border-bottom:1px solid #444;font-weight:400;color:#fff;text-align:left;}
+                    .eli:hover{width: 160px;margin-left:-10px;padding-left:10px;background:#555555;border-left:3px solid #E32B42;}
+                    .eli:hover .sanji{display:block;}
+                    .tubiao{margin:0 13px;}
+                    .dayu{margin-left:16px;color:#999;}
+                    .sanji{display:none; position:absolute;left:160px;top:0;z-index:999;
+                        width: 930px;height: 400px;border-bottom:1px solid #000;background:#fff;
+                        .yi{width: 650px;height: 400px;overflow:hidden;padding:10px 0 0 20px;}
+                        .sj{color:#999;width: 274px;height: 122px;margin-right:30px;
+                            .bt{color:#333;font-size:14px;line-height: 34px;border-bottom:1px solid #ddd;font-weight:600;}
+                            
+                            .hang1{height: 26px;
+                                a{ color:#444;font-size:14px;margin:0 6px;}
+                                a:first-child{margin-left:0;}
+                            }
+                        }
+                        .er{
+                            width: 279px;height: 400px;background:#F6F6F6;padding:10px;
+                            img{width: 253px;height: 362px;}
+                        }
+                    }
+                }
+            }
+            .dh1:hover .erji{display:block;}
+            .dh2:hover{color:#E31436;}
+        }
+    }
+}
+#Footer{
+    cursor:default;
+    .footer1{height: 126px;padding:37px 0 0 53px;border-bottom:1px solid #999;
+        li{width: 300px;
+            float:left;
+            h3{font-size:19px;font-weight:600;color:#333;}
+            p{font-size:14px;color:#333;line-height: 20px;}
+            img{margin-right:10px;}
+        }
+    }
+    .footer2{height: 258px;padding:37px 0 0 30px;
+        li{float:left;height: 130px;padding:0 30px;border-right:1px solid #ddd;
+        }
+        li:nth-child(6),li:nth-child(7){
+            border-right:none;
+        }
+        .li1{
+            font-size:12px;
+            img{margin-bottom:15px;margin-left:10px;}
+        }
+        .p1{font-size:19px;margin-bottom:12px;}
+        .p2{font-size:12px;line-height: 25px;}
+    }
+    .footer3{height: 153px;text-align:center;font-size:12px;background:#333;color:#c2c2c2;line-height: 26px;padding-top:10px;
+        img{margin-right:10px;height: 30px;}
+        img:first-child{height: 20px;}
+        p:last-child{margin-top:14px;}
+        span{margin-right:24px;}
+    }
+}

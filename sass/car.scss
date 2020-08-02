@@ -1,0 +1,115 @@
+$zhu_color:#E31436;
+#Header{
+    .qiangou{display:none;}
+}
+#car_main{
+    padding:20px 0;cursor:default;
+    .mycar{
+        font-size:12px;line-height: 24px;color:#333;
+        .yi{font-weight:600;font-size:14px;}
+        .zaiguang{color:#51B8F1;}
+        .laba{color:$zhu_color;margin-right:5px;}
+        .dizhi{width: 139px;height: 20px;border:1px solid #ddd;display:inline-block;line-height: 20px;padding:0 4px;}
+        .xiajian{margin-top:3px;}
+    }
+    .yqx{
+        width: 100%;height: 35px;border:1px solid #bbb;line-height: 35px;color:#999;font-size:12px;padding-left:22px;
+        .quan{color:#000;margin:0 70px 0 12px;}
+        .sx{width: 414px;}
+        .dj{width: 149px;}
+        .sl{width: 148px;}
+        .je{width: 135px;}
+    }
+    .ziy{
+        margin:22px 0 10px 22px;font-size:15px;color:#333;font-weight:600;
+    }
+    .sp{
+        border:1px solid #ddd;margin-bottom:30px;
+        .luosuo{
+            color:$zhu_color;font-size:14px;margin-top:10px;
+            .zaiguang{color:#51B8F1;}
+        }
+        .zhong_sp{
+            background:#FFFBF0;font-size:12px;color:#333;overflow:hidden;
+            li{
+                padding:19px 27px 0 22px;height: 119px;
+                .danxuan{margin-top:33px;}
+                .tu{width: 77px;height: 80px;margin:0 15px 0 5px;}
+                .neirong{
+                    line-height: 18px;width: 200px;margin-right:225px;
+                    p{color:#666;margin-top:5px;}
+                }
+                .jiner{
+                    margin-right:77px;
+                    .yuanjia{color:#666;line-height: 24px;}
+                    .xianjia{font-size:14px;font-weight:600;}
+                }
+                .jj{
+                    border:1px solid #ddd;line-height: 23px;text-align:center;margin-right:60px;
+                    .jian{width: 23px;height: 23px;border-right:1px solid #ddd;color:#666;}
+                    .jia{width: 23px;height: 23px;border-left:1px solid #ddd;color:#333;}
+                    .num{height: 23px;width: 43px;text-align:center;}
+                }
+                .xi{
+                    text-align:center;margin-right:47px;overflow:hidden;
+                    .xiaoji{
+                        font-size:14px;font-weight:600;
+                    }
+                    .sui{
+                        color:#666;
+                    }
+                }
+                .sch{
+                    width: 100px;overflow:hidden;float:right;margin-top:-41px;
+                    .shanchu{line-height: 24px;}
+                }
+            }
+        }
+        .houji{
+            height: 40px;line-height: 40px;text-align:right;font-size:12px;color:#333;
+            .youhui{margin-right:21px;}
+            .zhongji{margin-right:18px;font-weight:600;}
+            .shuifei{margin-right:40px;}
+        }
+    }
+    .j_s{
+        width: 1090px;height: 60px;border:1px solid #ddd;background:#f8f8f8;font-size:12px;color:#333;padding-left:22px;overflow:hidden;
+        .quanxuan{margin-top:23px;}
+        .qq{margin:0 20px 0 10px;color:#000;padding-top:23px;}
+        .shanxuan{margin-right:320px;padding-top:23px;}
+        .fansi{
+            width: 488px;padding-right:30px;padding-top:13px;
+            .fs{
+                text-align:right;overflow:hidden;line-height: 22px;
+                .shu{font-size:14px;font-weight:600;color:$zhu_color;}
+                .zongjia{font-size:15px;font-weight:600;color:$zhu_color;}
+                .zongjia::before{
+                    content:"￥";display:inline-block;
+                }
+            }
+            .zaifan{
+                width: 466px;color:#A0A0A0;text-align:right;
+                .youhui{margin-right:18px;}
+                .zhongji{margin-right:18px;}
+            }
+        }
+        .js_btn{width: 119px;height: 60px;background:$zhu_color;color:#fff;line-height: 60px;text-align:center;font-size:19px;}
+    }
+    .box0{
+        line-height: 56px;font-size:13px;overflow:hidden;
+        .da{font-size:24px;font-weight:600;color:#333333;}
+        .dan{color:#999;margin:0 10px;}
+    }
+    .kykul{overflow:hidden;
+            li{float:left;width: 169px;height: 237px;border:1px solid #ddd;font-size:12px;color:#333;text-align:center;padding:0 12px;margin-right:15px;}
+            li:last-child{margin:0;}
+            img{width: 140px;}
+            .p1{height: 32px;overflow:hidden;}
+            .p2{margin-top:12px;
+                .xianjia{color:#E31436;font-size:19px;
+                }
+                .yuanjia{font-size:12px;color:#999;}
+            }
+            .pl{color:#999;}
+        }
+}
